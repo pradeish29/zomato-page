@@ -17,7 +17,7 @@ h1{
     float: right;
     font-size: 20px;
     color: wheat;
-}
+} 
 .container{
     display: grid;
     grid-template-columns: auto auto auto;
