@@ -1,0 +1,71 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url("../img/top-view-indian-food-assortment.jpg");
+    background-size: cover;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+h1{
+    font-size: 50px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 20px;
+    margin-left: 5%;
+}
+
+.recipe{
+    color: white;
+    background: rgba(32, 31, 31, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    width: 300px;
+}
+.fl{
+    float: left;
+    font-size: 20px;
+    color: wheat;
+}
+.fr{
+    float: right;
+    font-size: 20px;
+    color: wheat;
+}
+.recipe img{
+    max-width: 100%;
+    max-height: 180px;
+}
+.container a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px  35px;
+    font-size:25px;
+    background-color:rgba(228, 34, 34, 0.7);
+    border-radius: 20px;
+    color: white;
+}
+ul{
+    list-style: none;
+    overflow: hidden;
+}
+li{
+    text-decoration: none;
+    padding: 10px  35px;
+    float: left;
+    font-size:40px;
+}
+.ri{
+    text-decoration: none;
+    padding: 10px  35px;
+    font-size:25px;
+    float: right;
+}
+.he a{
+    text-decoration: none;
+    display: inline-block;
+    font-size:40px;
+    font-weight: 100;
+    color: white;
+}
